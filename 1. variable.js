@@ -115,8 +115,8 @@ text = 1;
 console.log(`value: ${text}, type: ${typeof text}`); // 1, number
 text = "7" + 5;
 console.log(`value: ${text}, type: ${typeof text}`); // 75, string
-text = "8" / "2";
-console.log(`value: ${text}, type: ${typeof text}`); // 4, number
+text = "6" / "2";
+console.log(`value: ${text}, type: ${typeof text}`); // 3, number
 // javascript에서 +연산은 문자 연결, 숫자 더하는 기능을 모두 담당하고 문자 연결을 우선으로 하지만,
 // -, *, /는 숫자 계산만 담당한다.
 
