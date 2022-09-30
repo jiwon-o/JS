@@ -1,3 +1,4 @@
+// 콜백함수 지옥
 // class UserStorage {
 //   loginUser(id, password, onSuccess, onError) {
 //     setTimeout(() => {
@@ -48,6 +49,7 @@
 //   }
 // );
 
+// Promise로 변경
 class UserStorage {
   loginUser(id, password) {
     return new Promise((resolve, reject) => {
